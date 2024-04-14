@@ -236,12 +236,7 @@ img{
   }
 
   .login__img{
-    display: flex;
-    width: 600px;
-    height: 588px;
-    background-color: var(--first-color-lighten);
-    border-radius: 1rem;
-    padding-left: 1rem;
+    display:none;
   }
 
   .login__img img{
