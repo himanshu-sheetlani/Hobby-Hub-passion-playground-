@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle of Titans</title>
+    <link rel="stylesheet" href="./news1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <script>
+        setInterval(()=>{
+          var now = new Date();
+          var datetime = now.toLocaleString();
+          document.getElementById("datetime").innerHTML = datetime;
+        },1000)
+    </script>
+    <div class="nav">
+        <a href="./home.html">
+            <img src="./Passion playground logo white.svg" alt="logo">
+        </a>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search News" style="color: #fff;">
+        </div>
+        <div class="date">
+            <p>Date/Time: <span id="datetime"></span></p>
+            <div class="home">
+                <a href="./home.html" id="homebtn">
+                    <span class="material-symbols-outlined">home</span>
+                    HOME
+                </a>
+            </div>
+        </div>
+    </div> 
+
+    <div class="body">
+        <div class="news">
+            <div class="heading">
+                <h1>
+                    Battle of Titans: Chennai Super Kings vs Royal Challengers Bangalore
+                </h1>
+                <div class="img">
+                    <img src="./img1.jpg" alt="img">
+                </div>
+            </div>
+            <div class="para">
+                <p>
+                    <u>Pitch Analysis</u><br><br>
+                    The pitch at the MA Chidambaram stadium is generally a slow wicket with assists the spinners more than the pacers. Over the years, we have seen how the pitch turns more in the second half of an evening game. A total of 76 IPL games have been played at the Cheppauk with 46 matches won by the team batting first and 30 batting second.
+                    <br><br>
+                    200-plus totals have been posted at this venue but given the conditions, a score of 160-170 can be a winning total. Spinners have enjoyed bowling in this venue with an average of 26.8 and a good economy of 6.9, over the pace bowlers who average 29.4 with an 8.0 economy.
+                    <br><br>
+                    <div class="img">
+                        <img src="./img21.webp" alt="">
+                    </div>
+                    <u>Head-to-Head History </u> <br><br>
+                    RCB haven’t beaten CSK in Chennai since IPL 2008. Will that streak continue or end on Friday?<br>
+                    The last time RCB beat CSK at Chepauk was back in the first IPL season, in 2008.<br>
+                    In their most recent fixture there in 2019, RCB was spun out for 70 in 17.1 overs.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
